@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-#!/bin/bash
-=======
 #include <stdio.h>
 
 /**
@@ -26,4 +23,3 @@ int main(void)
 © 2022 GitHub, Inc.
 Terms
 Pri
->>>>>>> 2fb511dc3d784aae589b725f38b0644494ab30ad
