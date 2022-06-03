@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-#!/bin/bash
-=======
 #include <stdio.h>
 
 /**
@@ -23,7 +20,3 @@ int main(void)
 	printf("Size of a float: %lu byte(s)\n", (unsigned long)sizeof(f));
 	return (0);
 }
-© 2022 GitHub, Inc.
-Terms
-Pri
->>>>>>> 2fb511dc3d784aae589b725f38b0644494ab30ad
