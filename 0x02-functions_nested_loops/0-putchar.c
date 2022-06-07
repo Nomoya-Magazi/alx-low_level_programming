@@ -5,12 +5,12 @@
  */
 int main(void)
 {
-        char shasha[] = "_putchar";
+        char sha[] = "_putchar";
         int i;
 
         for (i = 0; i < 8; i++)
         {
-                _putchar(shasha[i]);
+                _putchar(sha[i]);
         }
         _putchar('\n');
         return (0);
