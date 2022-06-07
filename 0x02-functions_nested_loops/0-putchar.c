@@ -1,19 +1,17 @@
 #include "main.h"
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * main - is the entry
+ * Return: is 0
  */
 int main(void)
 {
-	char *sh = "putchar";
+        char shasha[] = "_putchar";
+        int i;
 
-	while (*sh)
-	{
-		_putchar(*sh);
-		sh++;
-	}
-	_putchar('\n');
-
-	return (0);
+        for (i = 0; i < 8; i++)
+        {
+                _putchar(shasha[i]);
+        }
+        _putchar('\n');
+        return (0);
 }
