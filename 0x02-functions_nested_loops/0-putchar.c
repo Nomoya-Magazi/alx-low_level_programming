@@ -1,11 +1,12 @@
 #include "main.h"
 /**
- * main-entry point
- * Return: is 0
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char *sh = "main.c";
+	char *sh = "putchar";
 
 	while (*sh)
 	{
