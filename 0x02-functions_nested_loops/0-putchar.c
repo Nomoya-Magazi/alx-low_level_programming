@@ -1,17 +1,17 @@
-#include "main.h
+#include "main.h"
 /**
- * main-entry point
+ * main - is the entry
  * Return: is 0
  */
 int main(void)
 {
-	charXo[] = "_putchar";
-	int i;
+        char sha[] = "_putchar";
+        int i;
 
-	for (i=0;i<8;i++)
-	{
-		_putchar(Xo[i]);
-	}
-	_putchar('\n');
-	return (0)
+        for (i = 0; i < 8; i++)
+        {
+                _putchar(sha[i]);
+        }
+        _putchar('\n');
+        return (0);
 }
