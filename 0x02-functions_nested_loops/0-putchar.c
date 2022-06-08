@@ -5,13 +5,13 @@
  */
 int main(void)
 {
-        char sha[] = "_putchar";
-        int i;
+	char fra[] = "_putchar";
+	int i;
 
-        for (i = 0; i < 8; i++)
-        {
-                _putchar(sha[i]);
-        }
-        _putchar('\n');
-        return (0);
+	for (i = 0; i < 8; i++)
+	{
+		_putchar(fra[i]);
+	}
+	_putchar('\n');
+	return (0);
 }
