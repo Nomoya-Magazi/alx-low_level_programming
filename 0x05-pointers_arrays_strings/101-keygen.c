@@ -27,6 +27,5 @@ int main(void)
   
   printf("%s\n", str);
   
-  return
-  
- }
+  return (0);
+}
