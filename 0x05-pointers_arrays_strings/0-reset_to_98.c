@@ -1,17 +1,11 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
- * main - is the entry
+ * reset_to_98 - takes a pointer to a parameter and updates its value
+ *@n: is the input
  * Return: Always 0
  */
-int main(void)
+void reset_to_98(int *n)
 {
-	int n;
-
-	n = 402;
-	printf("n=%d\n", n);
-	reset_to_98(&n);
-	printf("n=%d\n", n);
+	*n = 98;
 	return (0);
 }
