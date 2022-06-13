@@ -1,4 +1,5 @@
 #include "main.h"
+<<<<<<< HEAD
 #include <stdio.h>
 
 /**
@@ -16,4 +17,17 @@ void swap_int(int *a, int *b)
 	swap_int(&a, &b);
 	printf("a=%d, b=%d\n", a, b);
 	return (0);
+=======
+/**
+ * swap_int - swaps two integers
+ * @a: first integer
+ * @b: second integer
+ * Return: nothing
+ */
+void swap_int(int *a, int *b)
+{
+	int c = *a;
+	*a = *b;
+	*b = c;
+>>>>>>> 8c6eea12845b41e4976e477b1dafa07667323890
 }
