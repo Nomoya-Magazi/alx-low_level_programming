@@ -1,20 +1,18 @@
 #include "main.h"                                                                                                                                     
-                                                                                                                                                      
-/**                                                                                                                                                   
- * char *_strcat - concatenates two strings,                                                                                                          
- * including the terminating null byte (\0),                                                                                                          
- * to the buffer pointed to by dest                                                                                                                   
- *                                                                                                                                                    
- * @dest: a pointer to destination of string                                                                                                          
- * @src: a pointer to source the string to copy from                                                                                                  
- * Return: pointer to dest                                                                                                                            
- */                                                                                                                                                   
-char *_strcat(char *dest, char *src)                                                                                                                  
-{                                    
-char *dest[] = "Hello";
-char *src[] = "World";
-strcat (dest,src);
+/**
+ * _strcat - concatenates two strings
+ * @src: is the source string
+ * @dest: is the destination string
+ * Return: pointer to the resulting string dest
+ */
+char *_strcat(char *dest, char *src)
+{
+	char *temp = dest;
 
-printf ("concatenated string: %s\n", dest);
-return (0);
-}
+	while (*dest)
+		dest++;
+	while (*src)
+		*dest++ = *src++;
+	*dest = '\0';
+	return (temp);
+}                                                                                                                                                  
