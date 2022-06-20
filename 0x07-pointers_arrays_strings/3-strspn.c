@@ -1,28 +1,31 @@
 #include "main.h"
 /**
-* _strspn - gets the length of a prefix substring
-* @s: segment to reurn bytes from
-*@accept: byte to include
-*/
-
-unsigned int _strspn(char *s, char *accept);
+ * _strspn - gets the length of a prefix substring
+ * @s: the input string
+ * @accept: the input character to locare into string s
+ * Return: the number of bytes in s
+ */
+unsigned int _strspn(char *s, char *accept)
 {
-          int i, j;
-	        int c = 0;
+	unsigned int bytes = 0;
+	int ind;
 
-	      for (i = 0; s[i] != '\0'; i++)
-	      {
-		        if (s[i] != 32)
-	    	{
-	  		for (j = 0; accept[j] != '\0'; j++)
-		  	{
-		      		if (s[i] == accept[j])
-				        	c++;
-			    }
+	while (*s)
+	{
+		for (ind = 0; accept[ind]; ind++)
+		{
+			if (*s == accept[ind])
+			{
+				bytes++;
+				break;
+			}
+
+			else if (accept[ind + 1] == '\0')
+				return (bytes);
 		}
-		else
-			return (c);
 
+		s++;
 	}
-	return (c);
+
+	return (bytes);
 }
