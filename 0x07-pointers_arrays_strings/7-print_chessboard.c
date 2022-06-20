@@ -1,25 +1,18 @@
 #include "main.h"
 /**
-* print_chessboard - prints the chessboard
-* @a: the row of array
-*Return: is nothing
-*/
-
-void print_chessboard(char (*a)[8]);
+ * print_chessboard - prints a chessboard
+ * @a: an input array
+ * Return: nothing
+ */
+void print_chessboard(char (*a)[8])
 {
-int i, j;
+	int indx1, indx2;
 
-	for (i = 0; i < 8; i++)
+	for (indx1 = 0; a[indx1][7]; indx1++)
 	{
-		for (j = 0; j < 8; j++)
-		{
-			if (j == 7)
-			{
-				_putchar(a[i][j]);
-				_putchar('\n');
-			}
-			else
-				_putchar(a[i][j]);
-		}
+		for (indx2 = 0; indx2 < 8; indx2++)
+			_putchar(a[indx1][indx2]);
+
+		_putchar('\n');
 	}
 }
