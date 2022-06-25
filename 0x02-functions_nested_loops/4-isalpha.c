@@ -18,3 +18,5 @@ int _isalpha(int c)
 			if (c == low || c == up)
 				letter = 1;
 		}
+	}
+}
