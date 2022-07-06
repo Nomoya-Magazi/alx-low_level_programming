@@ -2,10 +2,11 @@
 #define _CALC_
 
 /**
- * struct op - structure op
- * @op: the operator
- * @f: fuction
+ * struct op - Structure op
+ * @op: operator
+ * @f: function
  */
+
 typedef struct op
 {
 	char *op;
