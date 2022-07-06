@@ -3,7 +3,7 @@
 #include "3-calc.h"
 /**
  * main - main file
- * @argc: number of argument lines
+ * @argc: number of lines arguments
  * @argv: array of elements
  * Return: 0
  */
@@ -20,5 +20,5 @@ int main(int argc, char *argv[])
 	R = (*get_op_func(argv[2]))(atoi(argv[1]), atoi(argv[3]));
 	printf("%d\n", A);
 
-	Return (0);
+	return (0);
 }
