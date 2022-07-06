@@ -5,7 +5,7 @@
  * op_add - addition
  * @a: sumnd 1
  * @b: sumnd 2
- * Return: result
+ * Return: rsult
  */
 
 int op_add(int a, int b)
@@ -40,10 +40,9 @@ int op_mul(int a, int b)
 /**
  * op_div - division
  * @a: divisr
- * @b: divid
- * Return: result
+ * @b: dividndo
+ * Return: reult
  */
-
 
 int op_div(int a, int b)
 {
