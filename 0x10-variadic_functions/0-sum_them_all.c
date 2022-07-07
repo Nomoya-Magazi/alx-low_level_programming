@@ -5,7 +5,7 @@
  * sum_them_all - a function that returns the sum of all its parameters
  * @n: the input
  *
- * Return: 0 if n == 0 else, sum of all parameters
+ * Return:if n == 0 - 0. else, the sum of all parameters.
  */
 int sum_them_all(const unsigned int n, ...)
 {
