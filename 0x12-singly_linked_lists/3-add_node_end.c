@@ -9,6 +9,7 @@
 list_t *add_node_end(list_t **head, const char *str)
 {
 	list_t *newnode, *run = *head;
+
 	newnode = malloc(sizeof(list_t));
 
 	if (!head || !newnode)
@@ -32,5 +33,5 @@ list_t *add_node_end(list_t **head, const char *str)
 		}
 		run->next = newnode;
 	}
-	return newnode);
+	return (newnode);
 }
