@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include "main.h"
 /**
  * _strlen - returns the length of a string
@@ -14,3 +15,6 @@ int _strlen(char *s)
 
 	return (inc);
 }
+=======
+
+>>>>>>> 4c03757e5e49e48203f5e062e25f9a7f53c771ba
