@@ -7,12 +7,12 @@
  * Return: Length
  */
 
-int _strlen(char*s)
+int _strlen(char *s)
 {
 	int len = 0;
 
-	while(*s++)
+	while (*s++)
 		len++;
 
-	return(len);
+	return (len);
 }
